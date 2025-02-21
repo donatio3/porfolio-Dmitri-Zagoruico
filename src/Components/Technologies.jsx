@@ -1,6 +1,8 @@
 import {RiReactjsLine} from 'react-icons/ri'
 import { IoLogoJavascript } from "react-icons/io";
+import { SiTypescript } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa6";
+import { SiNextdotjs } from "react-icons/si";
 import { FaCss3 } from "react-icons/fa";
 import { TbBrandRedux } from "react-icons/tb";
 import { SiWebpack } from "react-icons/si";
@@ -71,9 +73,23 @@ const Technologies = () => {
 
             <motion.div 
             variants={iconVariants(4)}
+                initial="initial"
+                animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiTypescript className='text-7xl text-blue-400'/>
+            </motion.div >
+
+            <motion.div 
+            variants={iconVariants(4)}
             initial="initial"
                 animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
                 <RiReactjsLine className='text-7xl text-cyan-400'/>
+            </motion.div >
+
+            <motion.div 
+            variants={iconVariants(4)}
+                initial="initial"
+                animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiNextdotjs className='text-7xl text-blue-400'/>
             </motion.div >
 
             <motion.div 
@@ -88,7 +104,8 @@ const Technologies = () => {
                 initial="initial"
                 animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiWebpack className='text-7xl text-blue-400'/>
-            </motion.div >
+            </motion.div >            
+
 
         </motion.div>
 

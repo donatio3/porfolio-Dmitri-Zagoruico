@@ -1,13 +1,11 @@
-import project1 from "../assets/projects/musicApp.png";
+import nextPizza from "../assets/projects/nextPizza.png";
 import project2 from "../assets/projects/heroes.png";
 import project3 from "../assets/projects/333.png";
-import project4 from "../assets/projects/project-4.jpg";
 
+export const ABOUT_TEXT = `Я Front-End разработчик, специализирующийся на React / Next.js, Redux (Toolkit) / Zustand и TypeScript. Умею работать с SSR, API, Prisma, Firebase. Постоянно развиваюсь, решаю задачи на Leetcode, знаю основные алгоритмы поиска и сортировки. Люблю создавать удобные и производительные веб-приложения, работать в команде и решать сложные задачи.`
 
-
-export const HERO_CONTENT = `I am an experienced Front-End developer with extensive knowledge in user interface development and creating dynamic web applications. I specialize in using HTML, CSS (SCSS), JavaScript technologies, as well as frameworks and libraries such as React and Redux. I have experience with version control systems (Git), build tools (Webpack), and tight integration with RESTful APIs and databases. I understand the principles of UI/UX, experience with Figma and Marcy.`;
-
-export const ABOUT_TEXT = `I am a dedicated and versatile front end developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Redux (toolkit and Query), Next.js, firebase. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT_ENG = `I am an experienced Front-End developer with extensive knowledge in user interface development and creating dynamic web applications. I specialize in using HTML, CSS (SCSS), JavaScript technologies, as well as frameworks and libraries such as React and Redux. I have experience with version control systems (Git), build tools (Webpack), and tight integration with RESTful APIs and databases. I understand the principles of UI/UX, experience with Figma and Marcy.`;
+export const HERO_CONTENT = `Я опытный Front-End разработчик с обширными знаниями в разработке пользовательских интерфейсов и создании динамических веб-приложений. Специализируюсь на использовании HTML, CSS (SCSS), JavaScript, а также таких фреймворков и библиотек, как React и Redux / Zustand. Имею опыт работы с TypeScript и Next.js (включая SSR, ISR и API Routes), а также с базами данных через Prisma. Обладаю навыками работы с системами контроля версий (Git), инструментами сборки (Webpack) и интеграцией с RESTful API и базами данных. Понимаю принципы UI/UX, имею опыт работы с Figma и Marcy.`
 
 export const EXPERIENCES = [
   {
@@ -42,29 +40,30 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Music website",
-    image: project1,
+    title: "Next.js Pizza Ordering App",
+    image: nextPizza,
     description:
-      "MusicStream is a full-featured music streaming web application inspired by Spotify. It offers users a seamless experience to explore, listen, and enjoy a vast collection of songs and artists from around the world",
-    technologies: ["HTML", "CSS", "React", "Redux Query", "Tailwind"],
-    link: "https://jsm-lyrics-music-app.netlify.app"
-  },
-  {
-    title: "Hero Admin Dashboard",
-    image: project2,
-    description:
-      "a project in which you can add or remove a hero by adding data and abilities to him. You can also filter heroes by super ability. All heroes and filters are added, removed and loaded from the firebase database",
-    technologies: ["HTML", "CSS", "React", "Redux toolkit", "Firebase Database"],
-    link: "https://donatio3.github.io/hero-redux-app-firebase/"
+      "Разработал клон Dodo Pizza – веб-приложение для заказа еды и напитков, с аутентификацией и интеграцией платежей. Функционал: Авторизация через GitHub, Google, email Заказ пиццы, еды и напитков Оплата через тестовый шлюз Юкасса Гибкая маршрутизация (Parallel & Group Routes) Server Actions и API для обработки данных",
+    technologies: ['Next.js', "TypeScript", "Prisma + PostgreSQL", "NextAuth (GitHub, Google, email), JWT-токены", "Zustand ", "TailwindCSS + ShadCN"],
+    link: "https://next-pizza-3agzzrqd8-dmitris-projects-75943609.vercel.app/"
   },
   {
     title: "Marvel Character & Comics Explorer",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Redux toolkit", "React Router", "Lazy/Suspense"],
+      "Веб-приложение, в котором можно просматривать и находить всех персонажей и их комиксы из Marvel.",
+    technologies: ["React", "Redux toolkit", "React Router", "Lazy/Suspense", "HTML", "CSS"],
     link: "https://donatio3.github.io/Marvel-App-Api"
   },
+  {
+    title: "Hero Admin Dashboard",
+    image: project2,
+    description:
+      "Проект, в котором вы можете добавлять или удалять героя, вводя его данные и способности. Вы также можете фильтровать героев по суперспособности. Все герои и фильтры добавляются, удаляются и загружаются из базы данных.",
+    technologies: ["Bootstrap", "Next.js", "Typescript", "Redux (RTK QUERY, toolkit)", "Prisma + PostgreSQL", ],
+    link: "https://heroes-app-management-fofx10o2u-dmitris-projects-75943609.vercel.app/"
+  },
+  
 ];
 
 export const CONTACT = {

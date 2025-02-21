@@ -1,4 +1,4 @@
-import logo from "../assets/ALW.png"
+import logo from "../assets/DZ.png"
 import {FaGithub} from 'react-icons/fa'
 import {FaTelegram} from 'react-icons/fa'
 import {FaInstagram} from 'react-icons/fa'
