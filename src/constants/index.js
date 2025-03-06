@@ -1,6 +1,8 @@
 import nextPizza from "../assets/projects/nextPizza.png";
 import project2 from "../assets/projects/heroes.png";
 import project3 from "../assets/projects/333.png";
+import project4 from "../assets/projects/project4.png";
+import project5 from "../assets/projects/PROJECT 5.jpg";
 
 export const ABOUT_TEXT = `Я Front-End разработчик, специализирующийся на React / Next.js, Redux (Toolkit) / Zustand и TypeScript. Умею работать с SSR, API, Prisma, Firebase. Постоянно развиваюсь, решаю задачи на Leetcode, знаю основные алгоритмы поиска и сортировки. Люблю создавать удобные и производительные веб-приложения, работать в команде и решать сложные задачи.`
 
@@ -63,6 +65,20 @@ export const PROJECTS = [
     technologies: ["Bootstrap", "Next.js", "Typescript", "Redux (RTK QUERY, toolkit)", "Prisma + PostgreSQL", ],
     link: "https://heroes-app-management-fofx10o2u-dmitris-projects-75943609.vercel.app/"
   },
+  {
+    title: "Watch Pulse JS Landing project",
+    image: project5,
+    description: 'Лендинг сайта c красивыми анимациями, слайдерами, табами, и формой заказа товара',
+    technologies: ['JavaScript', 'SCSS', 'HTML'],
+    link: "https://donatio3.github.io/watch-pulse-js/"
+  },
+  {
+    title: "Bootstrap Uber project",
+    image: project4,
+    technologies: ["Bootstrap", 'Css', 'Html'],
+    link: "https://donatio3.github.io/Bootstrap-Uber-project/"
+  },
+  
   
 ];
 
