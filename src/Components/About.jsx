@@ -1,5 +1,5 @@
 import aboutImg from '../assets/aboutMe.png'
-import { ABOUT_TEXT } from '../constants/index'
+import { ABOUT_TEXT_ENG } from '../constants/index'
 import { motion } from 'framer-motion'
 
 const About = () => {
@@ -22,7 +22,7 @@ const About = () => {
                 transition={{duration:0.5}} 
                     className='w-full lg:w-1/2'>
                 <div className="flex justify-center lg:justify-start">
-                    <p className='my-2 max-xl py-6'>{ABOUT_TEXT}</p>
+                    <p className='my-2 max-xl py-6'>{ABOUT_TEXT_ENG}</p>
                 </div>
             </motion.div>
         </div>
